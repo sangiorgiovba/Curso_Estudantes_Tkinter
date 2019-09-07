@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="=en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <title>CADASTRO DE ESTUDANTE | DOCUMENTACAO SANGIORGIOVBA@GMAIL.COM</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stroke.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shThemeRDark.css" media="all">
+
+
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <section id="top" class="section docs-heading">
+                <div class="row">
+                    <div class="col-ms-12">
+                        <div class="big-title text-center">
+                            <img src="logo.png" style="float:right">
+                            <h1>SANGIORGIOVBA@GMAIL.COM</h1>
+                            <p class="lead">CADASTRO DE ESTUDANTES APP VERSAO 2.0</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
+                        <ul class="nav">
+                            <li><a href="#line1">Comecando</a></li>
+                            <li><a href="#line4">Modulo Necessarios</a></li>
+                            <li><a href="#line5">Login/Cadastrar</a></li>
+                            <li><a href="#line6">Formulario Administracao</a></li>
+                            <li><a href="#line7">Formulario/Usuario</a></li>
+                            <li><a href="#line8">Ateracao/Versao</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-9">
+                    <section class="welcome">
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2>Introducao</h2>
+                                <div class="row">
+
+                                    <div class="col-md-12 full">
+                                        <div class="intro1">
+                                            <ul>
+                                                <li><strong>Nome : </strong>SANGIORGIOVBA@GMAIL.COM</li>
+                                                <li><strong>Versao Sistema :</strong>V 2.0</li>
+                                                <li><strong>Autor  : </strong> <a href="https://www.youtube.com/channel/UC-dRoABm-_rKxZG9m4wzR8w" target="_blank">Sangiorgio</a></li>
+                                                <li><strong>Suporte : </strong> <a href="https://github.com/sangiorgiovba" target="_blank">https://github.com/sangiorgiovba</a></li>
+                                                <li><strong>Licensa : </strong> <a href="https://github.com/sangiorgiovba/Curso_Estudantes_Tkinter/blob/master/LICENSE" target="_blank">MIT License</a></li>
+                                            </ul>  
+
+                                        </div>
+                                        <br>
+
+                                        <div>
+                                            <p>Primeiro de tudo, muito obrigado por tentar esta aplicação.
+                                                <strong>Você é demais!</strong>
+                                                <br> Você tem direito a receber atualizações vitalícias gratuitas para este produto + suporte excepcional do
+                                                autor diretamente.
+                                            </p>
+                                        
+                                            <p>Esta documentação é para ajudá-lo a respeito de cada etapa do uso do aplicativo. Por favor, leia cuidadosamente a
+                                                documentação para entender como esta aplicação pode ser usada</a>. </p>
+                                        
+                                            <h4>Requisitos</h4>
+                                            <p>Você precisará dos seguintes softwares para usar este aplicativo</p>
+                                            <ol>
+                                                <li>Um terminal ou linha de comando </li>
+                                                <li>Python 3</li>
+                                                <li>Módulo 'tkinter' do Python instalado</a></li>
+                                            </ol>
+                                            <div class="intro2 clearfix">
+                                                <p><i class="fa fa-exclamation-triangle"></i>Instale o módulo 'sqlite3' caso ainda não esteja instalado.
+                                                    <br> Geralmente é embutido em python
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="line1" class="section">
+                    
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Começando <a href="#top">Voltar/Topo</a>
+                                    <hr>
+                                </h2>
+                            </div>
+                    
+                        </div>
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>O simples GUI é muito fácil de entender</p>
+                    
+                                <h4>INSTALAR TODOS OS MÓDULOS NECESSÁRIOS.<br>
+                                    <hr>Inicie o aplicativo pressionando o arquivo </h4>
+                                <br>
+                                <p>Para criar uma nova conta de usuário. Vá para Arquivo -> Cadastra-se e faça login para adicionar uma nova
+                                    conta de usuário.<br>
+                                    Admin padrão é o nome de usuário: <br> password : </p>
+                            </div>
+                    
+                        </div>
+                    
+                    </section>
+
+                    <section id="line4" class="section">
+                    
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Módulos Necessários <a href="#top">Voltar/Topo</a>
+                                    <hr>
+                                </h2>
+                            </div>
+                    
+                        </div>
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4>tkinter</h4>
+                                <p>é a interface padrão do Python para o kit de ferramentas da Tk GUI. Tanto o Tk quanto o Tkinter estão
+                                    disponíveis na maioria das plataformas Unix, assim como nos sistemas Windows.</p>
+                            </div>
+                    
+                    
+                            <div class="col-md-4">
+                                <h4>sqlite3</h4>
+                                <p>O SQLite é uma biblioteca C que fornece um banco de dados leve baseado em disco que não exige um processo
+                                    de servidor separado e permite acessar o banco de dados usando uma variante não padrão da linguagem de
+                                    consulta SQL.</p>
+                            </div>
+                    
+                    
+                            <div class="col-md-12">
+                    
+                                <div class="text-center">
+                                    <a href="https://github.com/sangiorgiovba" class="btn btn-info">Faça uma pergunta</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="line5" class="section">
+                    
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Login <a href="#top">Voltar/Topo</a>
+                                    <hr>
+                                </h2>
+                            </div>
+                    
+                        </div>
+                    
+                    
+                        <div class="row">
+                    
+                            <div class="col-md-12">
+                            </div>
+                    
+                            <div class="col-md-4">
+                                <a href="images/upload/user.png" data-rel="prettyPhoto"><img src="images/upload/user.png" alt=""
+                                        class="img-responsive img-thumbnail"></a>
+                                <h4 id="line5_1">Login de usuário - <a href="#top">Topo</a></h4>
+                                <ul>
+                                    <li><strong>Passo 1</strong> - Clique no botão LOGIN na janela principal </li>
+                                    <li><strong>Passo 2</strong> - Definir botão de rádio para o usuário .</li>
+                                    <li><strong>Passo 3</strong> -Digite um nome de usuário e senha válidos e clique em Entrar.</li>
+                                </ul>
+                            </div>
+                    
+                    
+                            <div class="col-md-4">
+                                <a href="images/upload/admin.png" data-rel="prettyPhoto"><img src="images/upload/admin.png" alt=""
+                                        class="img-responsive img-thumbnail"></a>
+                                <h4 id="line5_2">Admin Login - <a href="#top">Top</a></h4>
+                                <ul>
+                                    <li><strong>Passo 1</strong> - Clique no botão LOGIN na janela principal </li>
+                                    <li><strong>Passo 2</strong> - Definir botão de rádio para o usuário.</li>
+                                    <li><strong>Passo 3</strong> - Digite um nome de usuário e senha válidos e clique em Entrar.</li>
+                                </ul>
+                            </div>
+                    
+                    
+                            <div class="col-md-4">
+                                <a href="images/upload/sign.png" data-rel="prettyPhoto"><img src="images/upload/sign.png" alt=""
+                                        class="img-responsive img-thumbnail"></a>
+                                <h4 id="line5_3">Criar novo usuário - <a href="#top">Top</a></h4>
+                                <ul>
+                                    <li><strong>Passo 1</strong> - Clique no botão LOGIN na janela principal.</li>
+                                    <li><strong>Passo 2</strong> - Digite novo username / password.</li>
+                                    <li><strong>Passo 3</strong> - Clique em adicionar usuário.</li>
+                                </ul>
+                            </div>
+                    
+                    
+                        </div>
+                    </section>
+
+                    <section id="line6" class="section">
+                    
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Admin Window<a href="#top">Voltar/Topo</a>
+                                    <hr>
+                                </h2>
+                            </div>
+                    
+                        </div>
+                    
+                    
+                        <div class="row">
+                    
+                            <div class="col-md-12">
+                                <a href="images/upload/adminwindow.png" data-rel="prettyPhoto"><img src="images/upload/adminwindow.png"
+                                        alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <h4>Cadastrar</h4>
+                                <p>Depois de preencher o nome, telefone no. e endereço, você pode clicar no botão enviar para adicioná-lo ao
+                                    banco de dados</p>
+                            </div>
+                    
+                    
+                            <div class="col-md-6">
+                                <h4>Atualizar</h4>
+                                <p>Você pode ATUALIZAR quaisquer registros existentes clicando com o botão esquerdo no registro, editando os
+                                    dados carregados nos campos de entrada e clicando em ATUALIZAR</p>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <h4>Deletar</h4>
+                                <p>Você pode excluir um registro do banco de dados selecionando-o e pressionando o botão Excluir</p>
+                            </div>
+                    
+                    
+                            <div class="col-md-6">
+                                <h4>Pesquisar</h4>
+                                <p>Você pode procurar um registro digitando uma parte do nome ou número do telefone na caixa de entrada e
+                                    pressionando o botão de pesquisa</p>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <h4>Dar Novas Formas</h4>
+                                <p>Você pode clicar em Atualizar para carregar os registros atualmente presentes na lista..<b>Isso é
+                                        especialmente útil para voltar de uma visualização de resultado de pesquisa</b>
+                                    <p>
+                            </div>
+                    
+                    
+                            <div class="col-md-6">
+                                <h4>RESTAURAR BANCO DE DADOS</h4>
+                                <p>Este comando apaga todos os registros do banco de dados e inicia uma nova tabela com a admissão de nenhum
+                                    incremento automático de 1 </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="line7" class="section">
+                    
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Usuario Window<a href="#top">de volta ao topo</a>
+                                    <hr>
+                                </h2>
+                            </div>
+                    
+                        </div>
+                    
+                    
+                        <div class="row">
+                    
+                            <div class="col-md-12">
+                                <a href="images/upload/userwindow.png" data-rel="prettyPhoto"><img src="images/upload/userwindow.png" alt=""
+                                        class="img-responsive img-thumbnail"></a>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <h4>Pesquisar</h4>
+                                <p>Você pode procurar um registro digitando uma parte do nome ou número do telefone na caixa de entrada e
+                                    pressionando o botão de pesquisa</p>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <h4>Dar Novas Formas</h4>
+                                <p>Você pode clicar em Atualizar para carregar os registros atualmente presentes na lista..<b>Isso é
+                                        especialmente útil para voltar de uma visualização de resultado de pesquisa</b>
+                                    <p>
+                            </div>
+                    
+                        </div>
+                    </section>
+
+                    <section id="line8" class="section">
+                    
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Histórico de versões<a href="#top">de volta ao topo</a>
+                                    <hr>
+                                </h2>
+                            </div>
+                    
+                        </div>
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12">
+                    
+                                <p>Você pode encontrar o arquivo do histórico de versões <strong>
+                                        <li><strong>Suporte : </strong> <a href="https://github.com/sangiorgiovba"
+                                                target="_blank">https://github.com/sangiorgiovba</a></li>
+                                    </strong> pasta ou você pode verificar changelog na página de venda de tema.</p>
+                                <p>Mais uma vez, muito obrigado por adquirir este tema. Como eu disse no começo, eu ficaria feliz em
+                                    ajudá-lo se você tiver alguma dúvida relacionada a este tema. Sem garantias, mas farei o meu melhor para
+                                    ajudar. Se você tiver uma pergunta mais geral relacionada aos temas no ThemeForest, considere visitar os
+                                    fóruns e fazer sua pergunta na seção "Discussão de itens".</p>
+                    
+                                <hr>
+                    
+                                <h4>Changelog</h4>
+                    
+                                <pre class="brush: html">
+                    
+                                                                -----------------------------------------------------------------------------------------
+                                                                Versão 2.0 03/08/2019
+                                                                -----------------------------------------------------------------------------------------
+                        
+                                                                - Adicionado opção de lista de usuários na janela de inscrição
+                                                                - Erros resolvidos
+                                                                - Melhor tratamento de erros
+                        
+                                                                -----------------------------------------------------------------------------------------
+                                                                Versão 2.0 03/08/2019
+                                                                -----------------------------------------------------------------------------------------
+                        
+                        
+                        
+                                </pre>
+                    
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+
+    
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/syntax-highlighter/scripts/shCore.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+</body>
+
+</html>
